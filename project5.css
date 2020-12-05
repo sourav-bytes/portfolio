@@ -1,0 +1,514 @@
+* {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 200vh
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 1111;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, .1) !important;
+}
+
+.scrolled {
+    background-color: #0D6EFD;
+    transition: 0.5s
+}
+
+.scrolled .navbar-brand {
+    color: white
+}
+
+.scrolled .navbar-nav .nav-item .nav-link {
+    color: white !important;
+
+}
+
+.nav-item .nav-link {
+    padding-left: 40px !important;
+    font-weight: 500 !important
+}
+
+
+.buttons {
+    margin-top: 100px
+}
+
+.buttons i {
+    margin-right: 20px;
+    font-size: 23px
+}
+
+.buttons i:hover {
+    color: #0D6EFD
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 80px
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 150px;
+    right: 30px
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 340px;
+    right: 50px
+}
+
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 300px;
+    right: 90px
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 0px;
+}
+
+.box6 {
+    width: 150px;
+    height: 150px;
+    border: 20px solid rgba(2, 92, 226, 0.2);
+    position: absolute;
+    z-index: -22;
+    transform: rotate(60deg);
+    top: 50px;
+    right: 30px
+}
+
+.service-inner {
+    transition: 0.5s;
+    cursor: pointer
+}
+
+.service-inner:hover {
+    transform: scale(1.1)
+}
+
+@media only screen and (max-width: 1199px) {
+
+
+
+    .box2 {
+        width: 100px;
+        height: 100px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 150px;
+        right: 40px;
+    }
+
+    .box3 {
+        width: 150px;
+        height: 150px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 350px;
+        right: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-light .navbar-toggler {
+        border-color: rgba(255, 255, 255, .5);
+    }
+
+    .section-1 .scrolled .container-fluid .navbar-collapse .navbar-nav .nav-items:hover {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .buttons {
+        margin-top: 45px;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .55);
+        padding-bottom: 20px;
+    }
+
+
+    .scrolled .navbar-nav .nav-item .nav-link {
+        color: white !important;
+        padding-bottom: 20px;
+    }
+
+    .navbar-toggler {
+        background: white
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 430px !important;
+        height: 500px;
+    }
+
+    .box6 {
+        width: 80px;
+        height: 80px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 50px;
+        right: 30px;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 450px !important
+    }
+
+    .services {
+        margin: 0px 50px !important
+    }
+
+    .section-6-inner-form {
+        margin: 0 !important
+    }
+
+    .section-6-inner-text {
+        padding-top: 65px !important
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .section-1 .row .col-12 .lottie4 {
+        width: 420px !important
+    }
+
+    .padding {
+        padding-top: 100px !important;
+        padding-left: 65px !important;
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 420px !important;
+        height: 500px;
+    }
+
+    .box6 {
+        width: 80px;
+        height: 80px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 134px;
+        right: 0px;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 350px !important
+    }
+
+    .services {
+        margin: 0px !important
+    }
+
+    .section-4-inner-form {
+        padding: 0px !important
+    }
+
+    .icons {
+        padding-top: 100px !important
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .scrolled .navbar-nav .nav-item .nav-link {
+        padding-left: 0px !important
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding-left: 0px !important
+    }
+
+    .section-1 .row {
+        margin: 0px !important;
+        padding-bottom: 10px !important
+    }
+
+    .section-1 .row .col-12 .lottie4 {
+        width: 380px !important;
+        height: 320px !important;
+    }
+
+    .padding {
+        padding-top: 70px !important;
+        padding-left: 20px !important;
+    }
+
+    .section-1 .navbar .container-fluid {
+        margin: 0 !important
+    }
+
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 100px;
+        left: 45px;
+    }
+
+    .box2 {
+        width: 80px;
+        height: 80px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 150px;
+        right: 25px;
+    }
+
+    .box3 {
+        width: 150px;
+        height: 150px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 345px;
+        right: 40px;
+    }
+
+    .section-2 .section-2-inner {
+        margin: 0 !important
+    }
+
+    .section-2 .section-2-inner .row {
+        padding-top: 20px !important
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 380px !important;
+        height: 300px !important;
+    }
+
+    .section-2 .section-2-inner .row .left {
+        padding-left: 20px !important
+    }
+
+    .section-3 .section-3-inner {
+        margin: 0px !important
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 380px !important;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 380px !important;
+        height: 300px !important
+    }
+
+    .box6 {
+        width: 80px;
+        height: 80px;
+        border: 20px solid rgba(2, 92, 226, 0.2);
+        position: absolute;
+        z-index: -22;
+        transform: rotate(60deg);
+        top: 134px;
+        right: 50px;
+    }
+
+    .section-4 .section-4-inner {
+        margin: 0px !important;
+        padding-bottom: 50px !important
+    }
+
+    .services .rows {
+        flex-direction: column
+    }
+
+    .section-5 .section-5-inner {
+        margin: 0px !important;
+
+    }
+
+    .skill {
+        margin-bottom: 15px
+    }
+
+    .section-5 .section-5-inner .row {
+        margin: 0px 10px !important
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .section-1 .row .col-12 .lottie4 {
+        width: 340px !important;
+        height: 320px !important;
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 340px !important;
+        height: 300px !important;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 340px !important;
+        height: 300px !important
+    }
+
+    .padding {
+        padding-top: 10px !important;
+        padding-left: 20px !important;
+    }
+
+    .padding h3 {
+        font-size: 40px !important;
+        margin-bottom: 15px !important
+    }
+
+    .padding h1 {
+        font-size: 50px !important
+    }
+
+    .padding h5 {
+        font-size: 20px !important;
+        margin-bottom: 10px !important
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .left {
+        padding-left: 20px !important;
+        padding-top: 30px !important;
+    }
+
+    .section-1 .row .col-12 .lottie4 {
+        width: 335px !important;
+        height: 300px !important;
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 335px !important;
+        height: 300px !important;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 335px !important;
+        height: 300px !important
+    }
+
+
+
+    .padding {
+        padding-top: 0px !important;
+        padding-left: 20px !important;
+    }
+
+    .padding h3 {
+        font-size: 35px !important
+    }
+
+    .padding h1 {
+        font-size: 45px !important
+    }
+
+    .padding h5 {
+        font-size: 20px !important
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-1 .row .col-12 .lottie4 {
+        width: 295px !important;
+        height: 300px !important;
+    }
+
+    .section-2 .section-2-inner .row .col-12 .lottie {
+        width: 295px !important;
+        height: 300px !important;
+    }
+
+    .section-3 .section-3-inner .row .col-12 .lottie2 {
+        width: 295px !important;
+        height: 300px !important
+    }
+
+    .padding {
+        padding-top: 0px !important;
+        padding-left: 35px !important;
+    }
+
+    .padding h3 {
+        font-size: 25px !important
+    }
+
+    .padding h1 {
+        font-size: 35px !important
+    }
+
+    .padding h5 {
+        font-size: 16px !important
+    }
+}
